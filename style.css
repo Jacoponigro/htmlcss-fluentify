@@ -6,16 +6,13 @@
 /* intestazione */
 header{
   height: 400px;
+  width: 80%;
+  margin: auto;
   background-color: #0C325A;
   background-image: url(img/background-header.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-
-}
-.container{
-  width:80%;
-  margin: auto;
 }
 .menu-inline{
   list-style: none;
@@ -33,7 +30,7 @@ header{
 }
 .header-top{
   height: 70px;
-  line-height:70px;
+  line-height: 70px;
 }
 .header-top::after{
   content: "";
@@ -46,11 +43,11 @@ header{
 }
 .header-top-nav-left{
   float: left;
-  width: 45%;
+  width: 44%;
 }
 .header-top-nav-right{
   float: left;
-  width: 40%;
+  width: 35%;
 }
 #bordatura{
   border: 2px solid #fff;
@@ -77,3 +74,37 @@ header{
   color: #fff;
 }
 /* fine intestazione */
+.pubblicita{
+  height: 70px;
+  width: 80%;
+  margin: auto;
+  background-color: lightgrey;
+  text-align: center;
+}
+.pubblicita p{
+  color:grey;
+}
+main{
+  background-color: #fff;
+  width: 80%;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.col-left{
+  float:left;
+  height: 100px;
+  display: inline-block;
+}
+.col-cen{
+  float: left;
+  height: 100px;
+  display:inline-block;
+}
+.col-right{
+  float:left;
+  height: 100px;
+  display: inline-block;
+}
