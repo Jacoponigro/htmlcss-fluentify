@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* intestazione */
+header{
+  height: 400px;
+  background-color: #0C325A;
+}
+.container{
+  width:80%;
+  margin: auto;
+}
+.menu-inline{
+  list-style: none;
+  font-size: 12px;
+}
+.menu-inline li{
+  display: inline-block;
+  text-transform: uppercase;
+}
+.header-top{
+  height: 70px;
+  line-height:70px;
+}
+.header-top::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+.header-top-logo{
+  float: left;
+  width: 15%;
+}
+.header-top-nav-left{
+  float: left;
+  width: 45%;
+}
+.header-top-nav-right{
+  float: left;
+  width: 40%;
+}
+.header-top li a{
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* fine intestazione */
