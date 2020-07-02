@@ -7,6 +7,11 @@
 header{
   height: 400px;
   background-color: #0C325A;
+  background-image: url(img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
 }
 .container{
   width:80%;
@@ -19,6 +24,12 @@ header{
 .menu-inline li{
   display: inline-block;
   text-transform: uppercase;
+}
+#sfondo{
+  background-color: #7CBB02;
+  padding:5px;
+  border: 0;
+  border-radius: 3px;
 }
 .header-top{
   height: 70px;
@@ -41,10 +52,28 @@ header{
   float: left;
   width: 40%;
 }
+#bordatura{
+  border: 2px solid #fff;
+}
 .header-top li a{
   margin: 0 10px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+}
+.banner-container button  {
+  background-color: #7CBB02;
+  padding:10px;
+  border: 0;
+  border-radius: 3px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.banner-container h1{
+  color: #fff;
+}
+.banner-container a{
+  text-decoration: none;
+  color: #fff;
 }
 /* fine intestazione */
